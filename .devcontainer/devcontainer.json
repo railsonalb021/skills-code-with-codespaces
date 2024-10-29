@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
   "remoteUser": "codespace",
   "overrideCommand": false,
-  "postCreateCommand": "your-command-here",  // Add this line
+  "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md",  // Add this line
   "customizations": {
     "vscode": {
       "extensions": [
